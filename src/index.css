@@ -1,0 +1,7 @@
+.ant-menu-light.ant-menu-horizontal >.ant-menu-item-selected {
+    color: white !important;
+}
+
+.ant-menu-light .ant-menu-item-active{
+    color: white !important;
+}
