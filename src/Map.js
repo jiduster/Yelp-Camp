@@ -2,7 +2,7 @@ import GoogleMapReact from "google-map-react"
 import {useEffect, useState} from "react";
 
 const Map = ({latlng, zoom, onClick=undefined, moveable=false}) => {
-    const [key] = useState("AIzaSyDjCrltffcCUHw1H6AA_6UkEnsRj3xOtZ8");
+    const [key] = useState(API_KRY); // Please input your own API key here to activate the service of Google Map.
     const [inLatlng, setLatlng] = useState(latlng);
     const [inZoom, setZoom] = useState(zoom);
 
